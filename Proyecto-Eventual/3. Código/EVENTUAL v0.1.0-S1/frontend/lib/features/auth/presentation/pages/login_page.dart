@@ -81,11 +81,7 @@ class _LoginPageState extends State<LoginPage> {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        const Icon(
-                          Icons.shield_outlined,
-                          size: 60,
-                          color: Color(0xFF1A237E),
-                        ),
+                        Image.asset('assets/images/Eventual.png', height: 80),
                         const SizedBox(height: 8),
                         const Text(
                           'Club de Suboficiales',
